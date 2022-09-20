@@ -1,0 +1,9 @@
+tools:
+  jdk:
+    - 8
+  maven:
+    - 3.5.2
+flows:
+  exampleflow:
+    - shell: echo "Hello World!"
+    - shell: mvn -v
